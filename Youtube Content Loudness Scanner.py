@@ -1,6 +1,6 @@
 import r128gain
 
-inputFile = input("Enter File: ")
+inputFile = input("Enter File: ").replace('"', "")
 
 inputLUFS = r128gain.get_r128_loudness([inputFile])[0]
 print(f"File LUFS: {inputLUFS}")
