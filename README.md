@@ -11,5 +11,15 @@ To compile you need r128gain and pyinstaller.
 ```
 pip install r128gain
 pip install pyinstaller
-pyinstaller -F '.\Youtube Content Loudness Scanner.py'
+pyinstaller -F .\ycls.py
 ```
+
+Usage:
+```
+ycls -i <inputFile>
+```
+
+Alternatively, you can run the file and it will prompt you with an input file.
+```
+ycls
+Input File: <inputFile>
