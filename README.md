@@ -2,16 +2,16 @@
 
 If you run the compiled version you do not need to install anything.
 
-To run the python file you need r128gain.
+To run the python file you need to install the requirements.
 ```
-pip install r128gain
+pip install -r requirements.txt
 ```
 
-To compile you need r128gain and pyinstaller.
+To compile you need the requirements and pyinstaller.
 ```
-pip install r128gain
+pip install -r requirements.txt
 pip install pyinstaller
-pyinstaller -F .\ycls.py
+pyinstaller -F -i NONE .\ycls.py
 ```
 
 Usage:
